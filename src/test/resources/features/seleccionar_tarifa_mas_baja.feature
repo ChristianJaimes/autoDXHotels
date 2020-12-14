@@ -11,6 +11,14 @@ Característica:
       | <ciudad> | <checkIn> | <checkOut> |
     Entonces Carolina debera ver el hotel que   ofresca el menor precio.
     Ejemplos:
-      | ciudad      | checkIn    | checkOut   |
-      | Los Angeles | 12/13/2020 | 12/14/2020 |
-      | Las Vegas   | 12/13/2020 | 12/14/2020 |
+      | ciudad        | checkIn    | checkOut   |
+      | Los Angeles   | 12/20/2020 | 12/21/2020 |
+      | San Francisco | 12/20/2020 | 12/21/2020 |
+      | Honolulu      | 12/20/2020 | 12/21/2020 |
+      | New York      | 12/20/2020 | 12/21/2020 |
+      | Nassau        | 12/20/2020 | 12/21/2020 |
+      | Paris         | 12/20/2020 | 12/21/2020 |
+      | London        | 12/20/2020 | 12/21/2020 |
+      | Rome          | 12/20/2020 | 12/21/2020 |
+      | Hamburg       | 12/20/2020 | 12/21/2020 |
+

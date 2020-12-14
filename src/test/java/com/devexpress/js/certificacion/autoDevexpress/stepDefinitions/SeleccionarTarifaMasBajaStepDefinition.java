@@ -32,7 +32,7 @@ public class SeleccionarTarifaMasBajaStepDefinition {
     @Cuando("^Carolina inicia la busqueda e la web  deveexpres para \"([^\"]*)\"$")
     public void carolinaIniciaLaBusquedaELaWebDeveexpresPara(String arg1, List<DatosBusqueda> datos)  {
         OnStage.theActorInTheSpotlight().attemptsTo(BuscarHotel.en(datos));
-        OnStage.theActorInTheSpotlight().attemptsTo(Revisar.costo());
+      //  OnStage.theActorInTheSpotlight().attemptsTo(Revisar.costo());
 
     }
 

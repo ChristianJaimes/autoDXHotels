@@ -1,6 +1,7 @@
 package com.devexpress.js.certificacion.autoDevexpress.userinterface;
 
 import net.serenitybdd.screenplay.targets.Target;
+import org.apache.tools.ant.taskdefs.Tar;
 import org.openqa.selenium.By;
 
 public class PaginaDeBusqueda {
@@ -22,5 +23,7 @@ public class PaginaDeBusqueda {
 
     public static final  Target BTN_PAG_3 =
             Target.the("Pagina 3").located(By.xpath("//p[@data-bind='text:number'][contains(.,'3')]"));
+
+
 
 }

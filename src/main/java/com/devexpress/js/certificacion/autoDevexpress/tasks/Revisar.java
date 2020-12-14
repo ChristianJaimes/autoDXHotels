@@ -1,5 +1,6 @@
 package com.devexpress.js.certificacion.autoDevexpress.tasks;
 
+import com.devexpress.js.certificacion.autoDevexpress.interactions.Almacenar;
 import com.devexpress.js.certificacion.autoDevexpress.userinterface.PaginaDeBusqueda;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
@@ -15,10 +16,10 @@ import static com.devexpress.js.certificacion.autoDevexpress.userinterface.Pagin
 public class Revisar implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
-            OnStage.theActorInTheSpotlight().attemptsTo(
-                    Click.on(BTN_BOOK_IT_1)
-            );
-            regresar();
+        OnStage.theActorInTheSpotlight().attemptsTo(Click.on(BTN_BOOK_IT_1));
+        Almacenar.valor();
+        regresar();
+
         }
 
     public static  void regresar(){
